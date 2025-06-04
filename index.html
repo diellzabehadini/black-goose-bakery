@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Black Goose Bakery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Stint+Ultra+Expanded" rel="stylesheet">
+
+  <style>
+    html {
+      box-sizing: border-box;
+    }
+    *, *::before, *::after {
+      box-sizing: inherit;
+    }
+
+    body {
+      font-family: Verdana, Arial, serif;
+      margin: 0;
+      background-color: #fff;
+      font-size: 100%;
+      line-height: 1.6;
+      color: #555;
+    }
+
+    a {
+      color: #DC6903;
+      text-decoration: none;
+      border-bottom: 1px dotted;
+      padding-bottom: 0.2em;
+    }
+    a:hover, a:focus {
+      color: #F9AB33;
+    }
+
+    header {
+      background-color: #783F27;
+      color: white;
+      text-align: center;
+      padding: 2em 1em;
+    }
+
+    header h1 {
+      font-family: 'Stint Ultra Expanded', cursive;
+      font-size: 2.5em;
+      margin: 0;
+    }
+
+    nav {
+      background-color: #783F27;
+    }
+
+    nav ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    nav li {
+      margin: 0.25em;
+    }
+
+    nav a {
+      display: block;
+      color: #F9AB33;
+      padding: 0.5em 1em;
+      border: 1px solid #F9AB33;
+      border-radius: 0.5em;
+      text-transform: uppercase;
+      font-size: 0.8em;
+      letter-spacing: 0.1em;
+    }
+
+    nav a:hover {
+      color: #fff;
+      border-color: #fff;
+    }
+
+    main {
+      padding: 2em;
+    }
+
+    h2 {
+      font-family: Georgia, serif;
+      font-size: 1.8em;
+      font-weight: normal;
+      margin-top: 0;
+    }
+
+    h3 {
+      font-size: 1.2em;
+      color: #7A0002;
+      text-transform: uppercase;
+      border-top: 1px solid #ccc;
+      margin-top: 2em;
+      padding-top: 0.5em;
+      letter-spacing: 0.15em;
+    }
+
+    p.more {
+      text-transform: uppercase;
+      font-size: 0.8em;
+      margin-top: 1em;
+    }
+
+    aside {
+      background-color: #F6F3ED;
+      padding: 2em;
+      text-align: center;
+    }
+
+    aside h2 {
+      margin-top: 0;
+    }
+
+    .day {
+      display: inline-block;
+      width: 100px;
+      text-align: right;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #783F27;
+      font-size: 0.85em;
+    }
+
+    footer {
+      background-color: #783F27;
+      color: #EADDC4;
+      text-align: center;
+      font-size: 0.8em;
+      padding: 1em;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="container">
+    <header>
+      <h1>Black Goose Bakery</h1>
+      <p>Delicious baked goods now available to go!</p>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h2>Fresh from the Oven</h2>
+
+      <h3>Breads</h3>
+      <p>Our breads are made daily from the highest-quality <span class="linelength">whole grain flour, water</span>, salt, and yeast or sourdough starter. We never use preservatives. Patience and natural fermentation are the keys to perfection. Options include whole grain, sourdough, olive loaf, classic rye, and potato-onion.</p>
+      <p class="more"><a href="#">Learn more about our baking process...</a></p>
+
+      <h3>Muffins</h3>
+      <p>We offer a wide variety of fresh, made-from-scratch muffins daily—blueberry, multi-berry, bran, corn, lemon-poppyseed, chocolate, and more. Check back often for seasonal flavors!</p>
+      <p class="more"><a href="#">Learn more about how we make our muffins...</a></p>
+    </main>
+
+    <aside>
+      <h2>Hours</h2>
+      <p><span class="day">Monday:</span> 5am – 3pm</p>
+      <p><span class="day">Tuesday:</span> 5am – 3pm</p>
+      <p><span class="day">Wednesday:</span> 5am – 3pm</p>
+      <p><span class="day">Thursday:</span> 5am – 3pm</p>
+      <p><span class="day">Friday:</span> 5am – 3pm</p>
+      <p><span class="day">Saturday:</span> 6am – 4pm</p>
+      <p><span class="day">Sunday:</span> 6am – 4pm</p>
+    </aside>
+
+    <footer>
+      <p>&copy; 2017 Black Goose Bistro. All rights reserved.</p>
+    </footer>
+  </div>
+
+</body>
+</html>
